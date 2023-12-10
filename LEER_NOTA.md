@@ -1,3 +1,5 @@
+[//]: # (Por favor, abrir en modo previsualización, ¡gracias!)
+
 # Informe de Errores
 
 ## Integrantes del Equipo
