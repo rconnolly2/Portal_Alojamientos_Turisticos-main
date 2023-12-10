@@ -1,6 +1,6 @@
 [//]: # (Por favor, abrir en modo previsualización, ¡gracias!)
 
-# Informe de Errores
+# BUENOS DIAS/ TARDES/ NOCKES
 
 ## Integrantes del Equipo
 
