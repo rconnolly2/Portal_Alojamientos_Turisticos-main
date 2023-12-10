@@ -13,4 +13,8 @@ Hemos identificado el siguiente error en nuestro documento:
 
 ## Recomendación
 
-Se puede cambiar name porque esta obsoleto por id aunque funciona correctamente.
+Se puede cambiar name porque esta obsoleto por id aunque funciona correctamente el enlace.
+
+## Aqui un regalo
+
+![Troll Face](https://media.tenor.com/7C0djPN9J-QAAAAi/troll-troll-face.gif)
