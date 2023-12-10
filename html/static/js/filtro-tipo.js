@@ -50,6 +50,9 @@ var filtro_sin_select_tipo = {
             // si lo encontramos que tiene filtro lo mostramos en pantalla
             if (img) {
                 divs[i].style.display = 'block';
+                if (screen.width <= 750) { // Si es modo Movil asegurarse carta4 display none
+                  document.getElementsByClassName("carta4").style.display="none";
+                }
             } else {
                 // si no ponemos display none
                 divs[i].style.display = 'none';

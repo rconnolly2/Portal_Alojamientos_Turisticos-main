@@ -103,6 +103,7 @@
 
 .tipo-hotel {
     margin: 0;
+    text-align: center;
     font-size: 9px;
     color: goldenrod;
     font-weight: bold;
@@ -150,3 +151,39 @@
     background-color: rgb(255, 250, 116);
     border: solid rgb(255, 230, 0) 5px;
 }
+
+/*MOVIL*/
+@media (max-width: 750px) {
+
+    .filtro {
+        width: 20%;
+        margin-top: 34px;
+        font-size: 10px;
+    }
+
+    .cant-alojamientos {
+        text-align: center;
+    }
+
+    .lista-hoteles {
+        margin-top: 34px;
+        width: 73%;
+    }
+
+    .carta4 {
+        display: none;
+    }
+
+    .cartas {
+        height: 400px;
+        width: 73%;
+        background-color: bisque;
+        transform: translatex(+38px);
+    }
+
+    .cartas:last-child {
+        display: none;
+    }
+
+
+  }
