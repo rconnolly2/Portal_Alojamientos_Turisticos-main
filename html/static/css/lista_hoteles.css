@@ -11,17 +11,21 @@
 .lista-hoteles {
     vertical-align: top;
     display: inline-block;
-    background-color: aquamarine;
+    background-color: bisque;
     width: 69%;
+    border-radius: 5px;
+    border: 1px solid black;
 }
 
 .lista-hoteles-municipio {
+    border: 1px solid black;
     position: relative;
     bottom: 154px;
     vertical-align: top;
     display: inline-block;
-    background-color: aquamarine;
+    background-color: bisque;
     width: 69%;
+    border-radius: 5px;
 }
 
 .imagen-hotel {
@@ -38,13 +42,13 @@
     position: relative;
     height: 300px;
     width: 500px;
-    background-color: blanchedalmond;
+    background-color: bisque;
     justify-content: center;
     align-items: center;
 }
 
 .cartas div {
-    background-color: lightseagreen;
+    background-color: lightskyblue;
     height: 200px;
     width: 120px;
     border-radius: 5px;
@@ -65,13 +69,13 @@
 
 .carta3 {
     z-index: 2;
-    background-color: lightcoral !important;
+    background-color: lightskyblue !important;
     transform: translateX(-70px);
 }
 
 .carta4 {
     z-index: 3;
-    background-color: lightskyblue !important;
+    background-color: lightsalmon !important;
     transform: translateX(-100px);
 }
 
@@ -134,6 +138,7 @@
 /*Mapa*/
 
 #mapa_div_id {
+    margin-top: 2%;
     width: 100%;
     display: inline-block;
 }
