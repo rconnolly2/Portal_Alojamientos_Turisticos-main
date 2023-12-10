@@ -11,6 +11,7 @@
   <!-- Descripción -->
   <meta name="description"
     content="Alojamientos turístucos en las Islas Baleares. Encuentra tu mejor opción para tus vacaciones en hoteles, apartamentos y más.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="./static/css/header.css">
   <link rel="stylesheet" href="./static/css/menu.css">
   <link rel="stylesheet" href="./static/css/main.css">
@@ -93,7 +94,7 @@
 
   <main>
     <div id="imagenPromo">
-      <p>DESCUBRE DE TODO EN BALEARES</p>
+      <p>Descubre de todo en Baleares</p>
     </div>
     <br>
     <div class="carrusel-contenedor">
@@ -107,7 +108,7 @@
                 <p>Para aquellos que buscan un entorno tranquilo para trabajar, ofrecemos espacios cómodos.</p>
               </div>
               <div class="div-ofertas-boton">
-                <a href="#">Elige tu estancia</a>
+                <a href="./alojamientos/hostal_tierramar.html">Elige tu estancia</a>
               </div>
             </div>
             <div class="div-ofertas-derech">
@@ -125,7 +126,7 @@
                 <p>Sumérgete en un mundo de descuentos especiales diseñados pensando en ti.</p>
               </div>
               <div class="div-ofertas-boton">
-                <a href="#">Elige tu estancia</a>
+                <a href="./alojamientos/gami.html">Elige tu estancia</a>
               </div>
             </div>
             <div class="div-ofertas-derech">
@@ -144,33 +145,33 @@
                   recreativas.</p>
               </div>
               <div class="div-ofertas-boton">
-                <a href="#">Ver ofertas</a>
+                <a href="./alojamientos/nadal.html">Ver ofertas</a>
               </div>
             </div>
             <div class="div-ofertas-derech">
               <img src="./media-lugares/fam.jpg">
             </div>
           </article>
-        </div>
+        </div><a class="carrusel-controles" id="next">></a>
 
       </div>
     </div>
-    <a class="carrusel-controles" id="next">></a>
+
     <script src="./static/js/carrusel-ofertas.js"></script>
 
-    <h2>Lugares de las Islas Baleares</h2>
+    <h2 id="titulo_lugares">Lugares de las Islas Baleares</h2>
     <table>
       <thead>
         <tr>
-          <td rowspan="5"><img alt="Lugar 1 Palma" src="./media-lugares/lugar1.jpg"></td>
-          <td rowspan="5"><img alt="Lugar 2 Pollença" src="./media-lugares/lugar2.jpg"></td>
+          <td rowspan="5"><a href="./municipio/palma.html"><img alt="Lugar 1 Palma" src="./media-lugares/lugar1.jpg"></a></td>
+          <td rowspan="5"><a href="./municipio/pollença.html"><img alt="Lugar 2 Pollença" src="./media-lugares/lugar2.jpg"></a></td>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td><img alt="Lugar 3 Calvia" src="./media-lugares/lugar3.png"></td>
-          <td><img alt="Lugar 4 Muro" src="./media-lugares/lugar4.jpg"></td>
-          <td><img alt="Lugar 5 Capdepera" src="./media-lugares/lugar5.jpg"></td>
+          <td><a href="./municipio/calvia.html"><img alt="Lugar 3 Calvia" src="./media-lugares/lugar3.png"></a></td>
+          <td><a href="./municipio/muro.html"><img alt="Lugar 4 Muro" src="./media-lugares/lugar4.jpg"></a></td>
+          <td><a href="./municipio/capdepera.html"><img alt="Lugar 5 Capdepera" src="./media-lugares/lugar5.jpg"></a></td>
         </tr>
       </tbody>
     </table>
@@ -267,11 +268,10 @@
 
       </article>
 
-      <h2>¡Disfruta de una Gran Variedad de Hoteles!</h2>
+      <h2 class="titulo-variedad-hoteles">¡Disfruta de una Gran Variedad de Hoteles!</h2>
       <article>
-        <h3>En Mallorca</h3>
-        <video autoplay="autoplay" muted frameborder="0" scrolling="no" height="720px" width="1280px"
-          title="videopromo">
+        <h3 class="titulo-variedad-hoteles">En Mallorca</h3>
+        <video class="video-barcelo" autoplay="autoplay" muted frameborder="0" scrolling="no" title="videopromo">
           <source src="./videos/video2.mp4" type="video/mp4">
           Video promocional de Hoteles en Mallorca
         </video>

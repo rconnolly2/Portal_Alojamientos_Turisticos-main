@@ -1,12 +1,11 @@
-/* Mobile version */
-@media(min-width:400px) {
-
+td img:hover {
+    transition-delay: 0.3s;
+    transition-duration: 2s;
+    border: 20px solid black;
+    box-shadow: inset 1px 1px 10px 0 #000000;
+    box-sizing: border-box;
 }
 
-/* Desktop */
-@media (min-width:900px) {
-
-}
 table {
     padding-bottom: 50px;
     flex:none;
@@ -44,7 +43,7 @@ tbody img {
 #imagenPromo {
     margin: 0;
     padding: 0; 
-    background-image: url("/Portal_Alojamientos_Turisticos-main/html/media/imagendebajofooter.jpg");
+    background-image: url("/html/media/imagendebajofooter.jpg");
     background-size: cover;
     height: 200px;
     width: auto;
@@ -57,15 +56,66 @@ tbody img {
     color: white;
 }
 
-header {
-    position: relative; 
-    z-index: 1;
-}
-
 main {
     padding: 20px; 
     background-color: rgba(200, 231, 254, 0.734);
     position: relative; 
-    z-index: 2; 
+    z-index: 1; 
+}
+
+#titulo_lugares {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+    flex:none;
+    overflow: hidden;
+}
+
+.titulo-variedad-hoteles {
+    text-align: center;
+}
+
+.video-barcelo {
+    display: block;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/*desktop*/
+@media (max-width: 1528px) {
+    tbody tr td:nth-child(n-2) { /*solo primero y segundo*/
+        display: none;
+      }
+
+    td img {
+        width: 300px;
+    }
+
+
+
+}
+
+
+/*Movil*/
+@media (max-width: 750px) {
+
+    tbody tr td:nth-child(n+3) {
+        display: none;
+      }
+    td img  {
+        width: 100%;
+    }
+
+    .video-barcelo {
+        width: 90%;
+    }
+
 }
 

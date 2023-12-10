@@ -66,6 +66,7 @@
   }
 
   .carrusel-wrapper {
+    position: relative;
     display: flex;
     width: fit-content;
     transition: transform 0.5s ease-in-out;
@@ -86,9 +87,10 @@
     padding-left: 15px;
     padding-right: 15px;
     font-weight: bold;
-    position: relative;
-    bottom: 100px;
-    left: 1000px;
+    display: inline-block;
+    position: absolute;
+    left: 90%;
+    top: 50%;
   }
 
   input[type="button"] {
@@ -108,3 +110,26 @@
     from { transform: translateX(0); }
     to { transform: translateX(-50%); }
   }
+
+
+
+/*DESKTOP*/
+@media (max-width: 750px) {
+
+  tbody tr td:nth-child(n+3) {
+      display: none;
+    }
+  td img  {
+      width: 100%;
+  }
+}
+
+
+/*MOVIL*/
+@media (max-width: 750px) {
+
+  .carrusel-controles {
+    left: 33%;
+    z-index: 2;
+  }
+}

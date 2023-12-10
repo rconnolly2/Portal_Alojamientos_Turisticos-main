@@ -50,3 +50,12 @@ aside {
     animation-name: animacion3aside;
     z-index: 2;
   }
+
+/*Movil*/
+@media (max-width: 750px) {
+
+  aside {
+    display: none;
+  }
+}
+

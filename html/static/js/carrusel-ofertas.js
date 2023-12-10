@@ -1,8 +1,9 @@
 const carousel = document.getElementById('carrusel');
+const boton = document.getElementById('next');
 
-  document.getElementById('next').onclick = function() {
+    boton.onclick = function() {
     const primerelemento = carousel.firstElementChild;
-
+    boton.style.display="none";
     carousel.classList.add('animacion-horizontal');
     
 
@@ -10,6 +11,7 @@ const carousel = document.getElementById('carrusel');
     setTimeout(() => {
       carousel.appendChild(primerelemento);
       carousel.classList.remove('animacion-horizontal');
+      boton.style.display="block";
     }, 400);
     
   };

@@ -48,7 +48,7 @@ footer a:hover {
 }
 
 .patron-footer {
-    background-image: url("/Portal_Alojamientos_Turisticos-main/html/media/ocean-patron.png");
+    background-image: url("/html/media/ocean-patron.png");
     width: auto;
     height: auto;
     display: block;
@@ -81,17 +81,31 @@ footer .información-pag:hover {
 }
 
 
-/*  TESTEO
-#logotipo {
-    width: 64px;
-    height: auto;
-    padding: 0;
-    margin: 0;
+/*Movil*/
+@media (max-width: 750px) {
+    /*Con esto no te dejara mover de lado a lado y sera mas como una app*/
+    body, html {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    .patron-footer {
+        background-image: none;
+    }
+
+    .separar-fondo-info .información-pag:nth-last-child(-n+2) {
+        display: none;
+    }
+
+    .separar-fondo-info {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .información-pag {
+        width: 200px;
+        height: 180px;
+    }
 }
-
-
-
-.enlinea {
-    align-items: inline-block;
-}
- */

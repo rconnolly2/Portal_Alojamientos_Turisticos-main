@@ -1,8 +1,17 @@
 
+
 .div-menu {
+    height: 10%;
     background-color: rgb(95, 172, 255);
-    margin:0;
-    padding: 0;
+    padding-top: 2%;
+    position: fixed;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    top: 0;
+    left: 0;
     /* PARA QUE QUEDE VISIBLE
     position: fixed;
     z-index: 1000000000;
@@ -12,11 +21,11 @@
 .div-menu-arriba {
     background-color: rgb(95, 172, 255);
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    height: 50%;
     padding:10px;
     margin:0px;
-
     gap:2%;
     /* gap a lo mejor esta mal */
 }
@@ -25,6 +34,8 @@
     background-color: rgb(95, 172, 255);
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 49%;
     padding:10px;
     margin:0px;
     gap:2%;
@@ -51,6 +62,15 @@
     align-items: center;
 }
 
+.vectorial-hotel {
+    width: 30px;
+}
+
+.boton-taxi {
+    display: flex;
+    align-items: center;
+}
+
 .elementos-arriba-menu:hover {
     background-color: rgba(255, 255, 255, 0.194);
     border-radius: 5px;
@@ -58,11 +78,12 @@
 
 .boton-blanco {
     display: flex;
+    justify-content: center;
     align-items: center;
     background-color: white;
     color: rgb(46, 46, 255);
-    padding: 6px;
-    height: 20px;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .boton-blanco:hover {
@@ -110,6 +131,82 @@ header a {
 
 }
 
-.logo-menu:hover{
-    background-color: rgb(144, 190, 255);
+
+
+/*Desktop responsive*/
+@media (max-width: 1060px){
+    .boton-blanco {
+       display: none;
+    }
+
+    .logo-menu {
+        margin: 0;
+    }
+
+
+}
+
+@media (max-width: 920px) {
+    .elementos-abajo-menu:last-child {
+        display: none;
+    }
+
+    .div-menu-abajo {
+        gap: 50px;
+    }
+
+    .elementos-abajo-menu, .elementos-arriba-menu, .elementos-abajo-menu-hoteles a {
+        font-size: 12px;
+    }
+
+    .elementos-arriba-menu img {
+        width: 20px;
+    }
+
+    .elementos-arriba-menu svg {
+        transform: scale(0.5);
+    }
+
+    .logo-menu {
+        width: 100px;
+    }
+
+}
+
+/*Movil*/
+@media (max-width: 750px) {
+    /*Con esto no te dejara mover de lado a lado y sera mas como una app*/
+    body, html {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    .div-menu {
+        flex-direction: row;
+        height: 100px;
+    }
+
+    .logo-menu {
+        width: 70px;
+    }
+
+    .elementos-arriba-menu, .boton-blanco, .elementos-abajo-menu-hoteles{
+        display: none;
+    }
+
+    .elementos-abajo-menu{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        font-size: 8px;
+    }
+
+    .div-menu-abajo {
+        gap: 10px;
+    }
+
+    .elementos-abajo-menu img {
+        width: 10px;
+    }
 }

@@ -2,8 +2,9 @@
 @media(min-width:400px) {
     body {
         margin: 0;
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 12%;
         
     }
     /* REVISAR 3 barras */
@@ -18,6 +19,7 @@
         margin: 0;
         margin-left: 10%;
         margin-right: 10%;
+        margin-top: 7%;
     }
     #tres-barras{
         display:none;
@@ -27,5 +29,13 @@
 /* Si no se aplica verdana se aplica sans-serif */
 body{
     font-family: Verdana, sans-serif;
-    background-image: url("/Portal_Alojamientos_Turisticos-main/html/media/hotelespatron.png");
+    background-image: url("/html/media/hotelespatron.png");
+}
+
+/*Movil*/
+@media (max-width: 750px) {
+    /*Pongo margen cuando sea Movil*/
+    body {
+        margin-top: 15%;
+    }
 }
