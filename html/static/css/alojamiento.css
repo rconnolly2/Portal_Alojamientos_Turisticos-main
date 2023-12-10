@@ -68,7 +68,7 @@
 }
 
 .formulario-habitacion-izq {
-    width: 39%;
+    width: 100%;
     display: inline-block;
     background-color: bisque;
 }
@@ -76,7 +76,7 @@
 .formulario-habitacion-der {
     display: inline-block;
     vertical-align: top;
-    width: 60%;
+    width: 100%;
 }
 
 .estilo-boton-compra {
@@ -122,10 +122,7 @@ header a{
     color: white;
 }
 
-/* Cambios mas recientes dia 10 */
-.puntuacionlocaciones {
-    padding: 50px;
-}
+
 
 .texto-localizacion {
     padding-left: 10px;
@@ -135,4 +132,61 @@ header a{
 
 .titulo-alojamiento {
     font-size: 28px;
+    display: inline-block;
 }
+
+.puntuacionlocaciones img {
+    width: 30px;
+    height: 30px;
+    padding: 1px;
+}
+
+/*Desktop*/
+@media (max-width: 2292px) {
+
+    .puntuacionlocaciones {
+        display: none;
+    }
+  }
+
+@media (max-width: 1630px) {
+
+    .puntuacionlocaciones {
+        display: none;
+    }
+    .img-hab-izq {
+        display: none;
+    }
+
+    .img-hab-der {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .texto-localizacion {
+        padding-top: 0;
+    }
+
+    .titulo-alojamiento {
+        margin-bottom: 0;
+    }
+
+  }
+
+/*Movil*/
+@media (max-width: 750px) {
+
+    .imagenes-alojamiento-izq, .detalles-alojamiento-der {
+        width: 100%;
+    }
+
+    .detalles-alojamiento-der h3 {
+        font-size: medium;
+        text-align: center;
+    }
+
+    .imagenes-alojamiento-izq {
+        margin-top: 10%;
+    }
+  }
