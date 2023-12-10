@@ -1,0 +1,18 @@
+ol {
+    list-style-type:lower-latin;
+    margin-bottom: 40px;
+}
+
+ol > li {
+    margin-bottom: 55px;
+}
+
+ul {
+    list-style-type: circle;
+    padding-top: 20px;
+    padding-left: 60px;
+}
+
+ul > li {
+    margin-bottom: 9px;
+}

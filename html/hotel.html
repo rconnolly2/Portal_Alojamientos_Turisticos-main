@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Alojamientos Turísticos de las Islas Baleares</title>
+  <meta name="keywords" content="Islas Baleares, Alojamientos Turísticos, Hoteles, Mallorca">
+  <meta name="author" content="Roberto Connolly Ramis, Juan Ángel Catalán Guarino">
+  <meta name="description"
+    content="Alojamientos turístucos en las Islas Baleares. Encuentra tu mejor opción para tus vacaciones en hoteles, apartamentos y más.">
+  <link rel="stylesheet" href="./static/css/header.css">
+  <link rel="stylesheet" href="./static/css/menu.css">
+  <link rel="stylesheet" href="./static/css/footer.css">
+  <link rel="stylesheet" href="./static/css/lista_hoteles.css">
+  <link rel="stylesheet" href="./static/css/general.css">
+  <link rel="stylesheet" href="./static/css/fixdefooter.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <!-- a la misna pagina enlace -->
+      <a name="irarriba"></a>
+      <div class="div-menu">
+        <div class="div-menu-arriba">
+          <a href="index.html" target="_self">
+            <img class="logo-menu" src="media/logo.png">
+          </a>
+          <div class="elementos-arriba-menu">
+            <a class="moneda" href="https://www.xe.com/es/currencyconverter/convert/?Amount=1&From=EUR&To=USD"
+              target="_blank">EUR</a>
+          </div>
+          <div class="elementos-arriba-menu">
+            <a href="https://www.defensa.gob.es/guardiareal/Menu/Identidad/Bandera_de_Espana/" target="_blank"><img
+                alt="bandera España" width="30px" src="media/bandera_españa.png"></a>
+          </div>
+          <div class="elementos-arriba-menu">
+            <a class="faq" href="#irabajo"><svg alt="faq" width="30px" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M9.75 9a2.25 2.25 0 1 1 3 2.122 2.25 2.25 0 0 0-1.5 2.122v1.006a.75.75 0 0 0 1.5 0v-1.006c0-.318.2-.602.5-.708A3.75 3.75 0 1 0 8.25 9a.75.75 0 1 0 1.5 0zM12 16.5a1.125 1.125 0 1 0 0 2.25 1.125 1.125 0 0 0 0-2.25.75.75 0 0 0 0 1.5.375.375 0 1 1 0-.75.375.375 0 0 1 0 .75.75.75 0 0 0 0-1.5zM22.5 12c0 5.799-4.701 10.5-10.5 10.5S1.5 17.799 1.5 12 6.201 1.5 12 1.5 22.5 6.201 22.5 12zm1.5 0c0-6.627-5.373-12-12-12S0 5.373 0 12s5.373 12 12 12 12-5.373 12-12z">
+                </path>
+              </svg></a>
+          </div>
+          <div class="elementos-arriba-menu">
+            <a href="http://www.radiotaxiciutat.com/" target="_blank">Taxis aeropuerto 👌<img alt="Taxi" width="30px"
+                src="media/taxi.png"></a>
+          </div>
+          <a class="boton-blanco" href="RegistroUsuario.html" target="_blank">Hazte una cuenta</a>
+          <!-- Vinculado con InicioSesion.html -->
+          <a class="boton-blanco" href="InicioSesion.html" target="_blank">Inicia sesión</a>
+        </div>
+        <!---->
+        <div class="div-menu-abajo">
+          <a id="tres-barras" href="#">
+          </a>
+
+          <div class="elementos-abajo-menu-hoteles">
+            <a href="hotel.html" target="_blank">Hotel<span><img class="logo-hotel-menu" alt="Hotel" width="30px"
+                  src="media/hotel.png"></span></a>
+          </div>
+
+          <div class="elementos-abajo-menu">
+            <a href="hotel_apartamento.html" target="_blank">Hotel apartamento</a>
+          </div>
+
+          <div class="elementos-abajo-menu">
+            <a href="hostal_residencia.html" target="_blank">Hostal residencia</a>
+          </div>
+
+          <div class="elementos-abajo-menu">
+            <a href="hostal.html" target="_blank">Hostal</a>
+          </div>
+
+          <div class="elementos-abajo-menu">
+            <a href="apartamentos_turisticos.html" target="_blank">Apartamento Turístico</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="filtro">
+    <h3 class="titulo-filtro">Filtrar por:</h3>
+    <hr>
+    <h3 class="filtro-por-estrella">Filtrar por estrellas</h3>
+    <input type="checkbox" id="checkestrella1" checked>
+    <label for="estrella1">1 Estrella</label><br>
+    <input type="checkbox" id="checkestrella2" checked>
+    <label for="estrella1">2 Estrellas</label><br>
+    <input type="checkbox" id="checkestrella3" checked>
+    <label for="estrella1">3 Estrellas</label><br>
+    <input type="checkbox" id="checkestrella4" checked>
+    <label for="estrella1">4 Estrellas</label><br>
+    <input type="checkbox" id="checkestrella5" checked>
+    <label for="estrella1">5 Estrellas</label><br>
+    <hr>
+    <h3>Alojamientos turísticos por municipio: </h3>
+    <a class="link-municipio" href="">POLLENÇA</a>
+    <a class="link-municipio" href="">CALVIÀ</a>
+    <a class="link-municipio" href="">PALMA</a>
+    <a class="link-municipio" href="">MURO</a>
+    <a class="link-municipio" href="">POLLENÇA</a>
+    <a class="link-municipio" href="">SANT LLORENÇ DES CARDASSAR</a>
+    <a class="link-municipio" href="">SES SALINES</a>
+    <a class="link-municipio" href="">CAPDEPERA</a>
+    <a class="link-municipio" href="">MANACOR</a>
+    <a class="link-municipio" href="">SANTA MARGALIDA</a>
+    <a class="link-municipio" href="">DEIÀ</a>
+    <a class="link-municipio" href="">ALCÚDIA</a>
+    <a class="link-municipio" href="">SÓLLER</a>
+    <a class="link-municipio" href="">LLUCMAJOR</a>
+  </main>
+
+
+
+  <main class="lista-hoteles">
+    <h3 class="cant-alojamientos">Hotel: 4 alojamientos encontrados</h3>
+
+    <div class="cartas">
+      <div class="carta1">
+        <h1 class="nombre">MARTORELL</h1>
+        <a href="https://estrellas.com/rconnolly2"><img class="imagen-hotel" src="./media-hoteles/martorell.jpg"
+            width="120px" height="100px"></a>
+        <span class="seccion-abajo-carta">
+          <a href="https://estrellas.com/rconnolly2"><img class="estrellas" src="./media/3estrella.png" width="25px"
+              height="20px" alt="estrella3"></a>
+          <p class="tipo-hotel">Hotel</p>
+        </span>
+      </div>
+      <div class="carta2">
+        <h1 class="nombre">GAMI</h1>
+        <a href="https://estrellas.com/rconnolly2"><img class="imagen-hotel" src="./media-hoteles/gami.jpg"
+            width="120px" height="100px"></a>
+        <span class="seccion-abajo-carta">
+          <a href="https://estrellas.com/rconnolly2"><img class="estrellas" src="./media/1estrella.png" width="25px"
+              height="20px" alt="estrella1"></a>
+          <p class="tipo-hotel">Hotel</p>
+        </span>
+      </div>
+      <div class="carta3">
+        <h1 class="nombre">SOL Y VIDA</h1>
+        <a href="https://estrellas.com/rconnolly2"><img class="imagen-hotel" src="./media-hoteles/sol_y_vida.jpg"
+            width="120px" height="100px"></a>
+        <span class="seccion-abajo-carta">
+          <a href="https://estrellas.com/rconnolly2"><img class="estrellas" src="./media/2estrella.png" width="25px"
+              height="20px" alt="estrella2"></a>
+          <p class="tipo-hotel">Hotel</p>
+        </span>
+      </div>
+      <div class="carta4">
+        <h1 class="nombre">HOTEL PALMIRA PARADISE & SUITES</h1>
+        <a href="https://estrellas.com/rconnolly2"><img class="imagen-hotel" src="./media-hoteles/palmira.jpg"
+            width="120px" height="100px"></a>
+        <span class="seccion-abajo-carta">
+          <a href="https://estrellas.com/rconnolly2"><img class="estrellas" src="./media/3estrella.png" width="25px"
+              height="20px" alt="estrella4"></a>
+          <p class="tipo-hotel">Hotel</p>
+        </span>
+      </div>
+
+
+    </div>
+
+    <div class="cartas">
+
+
+
+    </div>
+
+
+  </main>
+  <script src="./static/js/filtro-estrellas.js"></script>
+  <footer>
+    <a name="irabajo"></a>
+    <div class="enlinea">
+      <p>© 2023 Portal de Alojamientos Turísticos de las Islas Baleares</p>
+    </div>
+    <div class="patron-footer">
+      <div class="separar-fondo-info">
+        <div class="información-pag">
+          <!-- paginas externas -->
+          <a href="https://protecciondatos-lopd.com/empresas/modelo-aviso-legal-web/" target="_blank"
+            class="a-principal-en-footer">Aviso Legal</a><a
+            href="https://www.aepd.es/politica-de-privacidad-y-aviso-legal" target="_blank">Privacidad</a><a
+            href="https://protecciondatos-lopd.com/consultoria/tic/" target="_blank">Seguridad</a><a
+            href="https://support.google.com/youtube/answer/32050?hl=es&co=GENIE.Platform%3DDesktop"
+            target="_blank">Política
+            de
+            Cookies</a>
+          <a href="https://www.whatsapp.com/legal/privacy-policy?lang=es_LA" target="_blank">Política de
+            Calidad</a><br>
+        </div>
+        <div class="información-pag">
+          <!-- a la misna pagina enlace -->
+          <a href="#irarriba" target="_self" class="a-principal-en-footer">Sobre
+            Nosotros</a>
+          <!-- paginas externas -->
+          <a href="https://web.movistar.es/promociones/fibra-1gb/?sem=900106638&n_okw=telefonica_e__c_151400672330_20810946606_kwd-124208322_&gad_source=1&gclsrc=ds&gclsrc=ds"
+            target="_blank">Contacto</a>
+          <!-- a la misna pagina enlace -->
+          <a href="#irarriba" target="_self">Guia de viajes</a>
+          <!-- paginas externas -->
+          <a href="https://www.tsubahotel.com/es/faq-preguntas-frecuentes/" target="_blank">Preguntas
+            Frecuentes</a>
+          <a href="https://www.amazon.es/blackfriday" target="_blank">Black Friday</a><a
+            href="https://hotmart.com/es-es/afiliados" target="_blank">Afiliados</a>
+        </div>
+        <div class="información-pag">
+          <a class="a-principal-en-footer">Internacional</a>
+          <div class="espacio-entre-img-footer">
+            <a href="https://translate.google.es/?hl=es" target="_blank"><img alt="España"
+                src="media-footer/españabandera.png" width="30px" height="auto"></a>
+            <a href="https://es.wikipedia.org/wiki/Jap%C3%B3n" target="_blank"><img alt="Japón"
+                src="media-footer/japon bandera.png" width="30px" height="auto"></a>
+          </div>
+          <div class="espacio-entre-img-footer">
+            <a href="https://coreanorte.com/pais/informacion-general-sobre-corea-del-norte/" target="_self"><img
+                alt="corea" src="media-footer/coreadelnortebandera.png" width="30px" height="auto"></a>
+            <a href="https://es.rbth.com/educacion/82282-utiles-palabras-ruso" target="_blank"><img alt="rusia"
+                src="media-footer/rusiabandera.png" width="30px" height="auto"></a>
+          </div>
+          <div class="espacio-entre-img-footer">
+            <a href="https://es.wikipedia.org/wiki/Pr%C3%ADpiat" target="_blank"><img alt="ucrania"
+                src="media-footer/ucraniabandera.png" width="30px" height="auto"></a>
+            <a href="https://es.pons.com/traducci%C3%B3n/espa%C3%B1ol-alem%C3%A1n" target="_blank"><img alt="Alemania"
+                src="media-footer/alemaniabandera.png" width="30px" height="auto"></a>
+          </div>
+        </div>
+        <div class="información-pag">
+          <a class="a-principal-en-footer">Contacta con Nosotros</a>
+          <div class="espacio-entre-img-footer"><a href="https://www.facebook.com/?locale=es_ES" target="_blank"><img
+                alt="Facebook" src="media-footer/facebook.png" width="30px" height="auto"></a><a
+              href="https://www.youtube.com/watch?v=wWrfDXIT_rU" target="_blank"><img alt="Youtube"
+                src="media-footer/youtube.png" width="30px" height="auto"></a></div>
+          <div class="espacio-entre-img-footer"><a href="https://www.tiktok.com/es/" target="_blank"><img alt="tik-tok"
+                src="media-footer/tik-tok.png" width="30px" height="auto"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img alt="instagram" src="media-footer/instagram.png"
+                width="30px" height="auto"></a>
+          </div>
+          <div class="espacio-entre-img-footer"><a
+              href="https://www.xataka.com/basics/como-entrar-deep-web-guia-2020-para-entrar-tor-zeronet-freenet-e-i2p"
+              target="_blank"><img alt="dark-web" src="media-footer/dark-web.png" width="30px" height="auto"></a><a
+              href="https://www.reddit.com/?rdt=46614" target="_blank"><img alt="reddit" src="media-footer/reddit.png"
+                width="30px" height="auto"></a></div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>

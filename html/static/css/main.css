@@ -1,0 +1,71 @@
+/* Mobile version */
+@media(min-width:400px) {
+
+}
+
+/* Desktop */
+@media (min-width:900px) {
+
+}
+table {
+    padding-bottom: 50px;
+    flex:none;
+    overflow: hidden;
+}
+
+tr{
+    margin-top: 0;
+    display: block;
+}
+td{
+    background-color: rgb(95, 172, 255);
+    padding: 8px;
+    border-radius: 4%;
+}
+
+thead img{
+    height: 380px;
+    width: 570px;
+    border-radius: 4%;
+    object-fit: cover;
+}
+
+tbody img {
+    max-width: 100%;
+    border-radius: 4%;
+    height: 290px;
+    width: 374px;
+    object-fit: cover;
+}
+
+
+
+/* arreglar pendiente */
+#imagenPromo {
+    margin: 0;
+    padding: 0; 
+    background-image: url("/Portal_Alojamientos_Turisticos-main/html/media/imagendebajofooter.jpg");
+    background-size: cover;
+    height: 200px;
+    width: auto;
+}
+
+#imagenPromo p{
+    background-color: black;
+    font-size: 25px;
+    width: 40%;
+    color: white;
+}
+
+header {
+    position: relative; 
+    z-index: 1;
+}
+
+main {
+    padding: 20px; 
+    background-color: rgba(200, 231, 254, 0.734);
+    position: relative; 
+    z-index: 2; 
+}
+

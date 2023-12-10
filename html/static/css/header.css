@@ -1,0 +1,115 @@
+
+.div-menu {
+    background-color: rgb(95, 172, 255);
+    margin:0;
+    padding: 0;
+    /* PARA QUE QUEDE VISIBLE
+    position: fixed;
+    z-index: 1000000000;
+     */
+}
+
+.div-menu-arriba {
+    background-color: rgb(95, 172, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:10px;
+    margin:0px;
+
+    gap:2%;
+    /* gap a lo mejor esta mal */
+}
+
+.div-menu-abajo {
+    background-color: rgb(95, 172, 255);
+    display: flex;
+    justify-content: center;
+    padding:10px;
+    margin:0px;
+    gap:2%;
+    /* gap a lo mejor esta mal */
+}
+
+.logo-menu {
+    width: 200px;
+    margin-right: 80px;
+}
+
+.moneda {
+    display: inline-block;
+}
+
+.idioma {
+    display: inline-block;
+    width: 40px;
+}
+
+.elementos-arriba-menu {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.elementos-arriba-menu:hover {
+    background-color: rgba(255, 255, 255, 0.194);
+    border-radius: 5px;
+}
+
+.boton-blanco {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: rgb(46, 46, 255);
+    padding: 6px;
+    height: 20px;
+}
+
+.boton-blanco:hover {
+    background-color: rgb(220, 220, 255);
+}
+
+.elementos-abajo-menu-hoteles a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(85, 147, 255, 0.906);
+    border: 2px white solid;
+    border-radius: 30px;
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.elementos-abajo-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 42px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 30px;
+}
+
+.elementos-abajo-menu a {
+    display: flex;
+    align-items: center;
+}
+
+.elementos-abajo-menu:hover {
+    background-color: rgba(66, 134, 252, 0.906);
+}
+
+header {
+    padding-bottom: 20px;
+}
+
+header a {
+    color: whitesmoke;
+    text-decoration: none;
+
+}
+
+.logo-menu:hover{
+    background-color: rgb(144, 190, 255);
+}

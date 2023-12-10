@@ -1,0 +1,138 @@
+.imagenes-alojamiento-izq {
+    display: inline-block;
+    width: 35%;
+    border-radius: 5px;
+    padding: 1%;
+    background-color: #80bdff;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+}
+
+.detalles-alojamiento-der {
+    padding: 3%;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+    width: 56%;
+    background-color: rgb(241, 170, 89);
+    border-radius: 5px;
+    padding-bottom: 80px;
+    margin-bottom: 20px;
+}
+
+.img-hab-izq {
+    overflow: hidden;
+    display: inline-block;
+    width: 30%;
+}
+
+.img-hab-izq img {
+    width: 96%;
+    display: block;
+    object-fit: cover;
+}
+
+.img-hab-der {
+    overflow: hidden;
+    vertical-align: top;
+    background-color: brown;
+    display: inline-block;
+    width: 69%;
+    height: 100%;
+    
+}
+
+.img-hab-der img {
+    height: 100%;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.img-abajo {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.5%;
+}
+
+.img-abajo img {
+    object-fit: cover;
+}
+
+.tags-servicios {
+    width: 70%;
+}
+
+.estilo-svg-servicio {
+    width: 18px;
+}
+
+.formulario-habitacion-izq {
+    width: 39%;
+    display: inline-block;
+    background-color: bisque;
+}
+
+.formulario-habitacion-der {
+    display: inline-block;
+    vertical-align: top;
+    width: 60%;
+}
+
+.estilo-boton-compra {
+    background-color: #0071c2;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 18px;
+}
+
+.estilo-boton-compra:hover {
+    transition-delay: 0.3s;
+    transition-duration: 1s;
+    background-color: #1068a7;
+}
+
+.formulario-habitacion-der span {
+    color: goldenrod;
+}
+
+.formulario-habitacion-izq iframe {
+    height: 300px;
+    width: 100%;
+}
+
+.detalles-abajo {
+    background-color: #a2cfff;
+    padding: 20px;
+}
+
+.cuadro-cancel {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    box-shadow: 1px 1px 5px black;
+    background-color: azure;
+}
+
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Cambios mas recientes dia 10 */
+.puntuacionlocaciones {
+    padding: 50px;
+}
+
+.texto-localizacion {
+    padding-left: 10px;
+    padding-bottom: 30px;
+    padding-top: 40px;
+}
+
+.titulo-alojamiento {
+    font-size: 28px;
+}

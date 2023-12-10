@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Alojamientos Turísticos de las Islas Baleares</title>
+    <meta name="keywords" content="Islas Baleares, Alojamientos Turísticos, Hoteles, Mallorca">
+    <meta name="author" content="Roberto Connolly Ramis, Juan Ángel Catalán Guarino">
+    <meta name="description"
+        content="Alojamientos turísticos en las Islas Baleares. Encuentra tu mejor opción para tus vacaciones en hoteles, apartamentos y más.">
+    <link rel="stylesheet" href="../static/css/header.css">
+    <link rel="stylesheet" href="../static/css/menu.css">
+    <link rel="stylesheet" href="../static/css/footer.css">
+    <link rel="stylesheet" href="../static/css/lista_hoteles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Portal de Alojamientos Turísticos de las Islas Baleares</h1>
+        <nav>
+            <div class="div-menu">
+                <div class="div-menu-arriba">
+                    <img class="logo-menu" src="../media/logo.png">
+                    <div class="elementos-arriba-menu">
+                        <a class="moneda">EUR</a>
+                    </div>
+                    <div class="elementos-arriba-menu">
+                        <a><img alt="bandera España" width="30px" src="../media/bandera_españa.png"></a>
+                    </div>
+                    <div class="elementos-arriba-menu">
+                        <a class="faq"><svg alt="faq" width="30px" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.75 9a2.25 2.25 0 1 1 3 2.122 2.25 2.25 0 0 0-1.5 2.122v1.006a.75.75 0 0 0 1.5 0v-1.006c0-.318.2-.602.5-.708A3.75 3.75 0 1 0 8.25 9a.75.75 0 1 0 1.5 0zM12 16.5a1.125 1.125 0 1 0 0 2.25 1.125 1.125 0 0 0 0-2.25.75.75 0 0 0 0 1.5.375.375 0 1 1 0-.75.375.375 0 0 1 0 .75.75.75 0 0 0 0-1.5zM22.5 12c0 5.799-4.701 10.5-10.5 10.5S1.5 17.799 1.5 12 6.201 1.5 12 1.5 22.5 6.201 22.5 12zm1.5 0c0-6.627-5.373-12-12-12S0 5.373 0 12s5.373 12 12 12 12-5.373 12-12z">
+                                </path>
+                            </svg></a>
+                    </div>
+                    <div class="elementos-arriba-menu">
+                        <a>Registra tu alojamiento</a>
+                    </div>
+                    <a class="boton-blanco">Hazte una cuenta</a>
+                    <a class="boton-blanco">Inicia sesión</a>
+                </div>
+                <!---->
+                <div class="div-menu-abajo">
+                    <a id="tres-barras" href="#">
+                        <p>Ejemplo<p>
+                    </a>
+
+                    <div class="elementos-abajo-menu-hoteles">
+                        <a class="" href="#">Hoteles<span><img class="logo-hotel-menu" alt="Hotel" width="30px"
+                                    src="../media/hotel.png"></span></a>
+                    </div>
+
+                    <div class="elementos-abajo-menu">
+                        <a class="" href="#">Vuelos + Hotel</a>
+                    </div>
+
+                    <div class="elementos-abajo-menu">
+                        <a class="" href="#">Atracciones Turísticas</a>
+                    </div>
+
+                    <div class="elementos-abajo-menu">
+                        <a class="" href="#">Taxis aeropuerto<img alt="Taxi" width="30px" src="../media/taxi.png"></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="mapa_div_id"><iframe width="29%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=200&amp;height=200&amp;hl=en&amp;q=calvia+(calvia)&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/sport-gps/">gps watches</a></iframe></div>
+
+    <main class="filtro">
+        <h3 class="titulo-filtro">Filtrar por:</h3>
+        <hr>
+        <h3 class="filtro-por-estrella">Filtrar por estrellas</h3>
+        <input type="checkbox" id="checkestrella1" checked>
+        <label for="estrella1">1 Estrella</label><br>
+        <input type="checkbox" id="checkestrella2" checked>
+        <label for="estrella1">2 Estrellas</label><br>
+        <input type="checkbox" id="checkestrella3" checked>
+        <label for="estrella1">3 Estrellas</label><br>
+        <input type="checkbox" id="checkestrella4" checked>
+        <label for="estrella1">4 Estrellas</label><br>
+        <input type="checkbox" id="checkestrella5" checked>
+        <label for="estrella1">5 Estrellas</label><br>
+        <h3 class="filtro-por-estrella">Filtrar por tipo de alojamiento</h3>
+        <input type="checkbox" id="check_apartamento_turistico" checked>
+        <label for="check_apartamento_turistico">Apartamento turístico</label><br>
+        <input type="checkbox" id="check_hotel_apartamento" checked>
+        <label for="check_hotel_apartamento">Hotel apartamento</label><br>
+        <input type="checkbox" id="check_hotel" checked>
+        <label for="check_hotel">Hotel</label><br>
+        <input type="checkbox" id="check_hostal_residencia" checked>
+        <label for="check_hostal_residencia">Hostal residencia</label><br>
+        <input type="checkbox" id="check_hostal" checked>
+        <label for="check_hostal">Hostal</label><br>
+        <hr>
+        <h3>Alojamientos turísticos por municipio: </h3>
+        <a class="link-municipio" href="">POLLENÇA</a>
+        <a class="link-municipio" href="">PALMA</a>
+        <a class="link-municipio" href="">MURO</a>
+        <a class="link-municipio" href="">SANT LLORENÇ DES CARDASSAR</a>
+        <a class="link-municipio" href="">SES SALINES</a>
+        <a class="link-municipio" href="">CAPDEPERA</a>
+        <a class="link-municipio" href="">MANACOR</a>
+        <a class="link-municipio" href="">SANTA MARGALIDA</a>
+        <a class="link-municipio" href="">DEIÀ</a>
+        <a class="link-municipio" href="">ALCÚDIA</a>
+        <a class="link-municipio" href="">SÓLLER</a>
+        <a class="link-municipio" href="">LLUCMAJOR</a>
+    </main>
+
+    <main class="lista-hoteles-municipio">
+        <h3 class="cant-alojamientos">Calvià: 4 alojamientos encontrados</h3>
+
+        <div class="cartas">
+            <div class="carta1">
+                <h1 class="nombre">AVENIDA</h1>
+                <a href="https://estrellas.com/rconnolly2"><img class="imagen-hotel" src="../media-hoteles/avenida.jpg" width="120px" height="100px" alt="aturistico"></a>
+                <span class="seccion-abajo-carta">
+                    <a href="https://estrellas.com/rconnolly2"><img class="estrellas" src="../media/2estrella.png" width="25px" height="20px" alt="estrella2"></a>
+                    <p class="tipo-hotel">Apartamento turístico</p>
+                </span>
+            </div>
+            <div class="carta2">
+                <h1 class="nombre">HOTEL PALMIRA PARADISE</h1>
+                <a href="https://estrellas.com/rconnolly2"><img class="imagen-hotel" src="../media-hoteles/palmira.jpg" width="120px" height="100px" alt="hotel"></a>
+                <span class="seccion-abajo-carta">
+                    <a href="https://estrellas.com/rconnolly2"><img class="estrellas" src="../media/4estrella.png" width="25px" height="20px" alt="estrella4"></a>
+                    <p class="tipo-hotel">Hotel</p>
+                </span>
+            </div>
+            <div class="carta3">
+                <h1 class="nombre">NIMA</h1>
+                <a href="https://estrellas.com/rconnolly2"><img class="imagen-hotel" src="../media-hoteles/nima.avif" width="120px" height="100px" alt="hresidencia"></a>
+                <span class="seccion-abajo-carta">
+                    <a href="https://estrellas.com/rconnolly2"><img class="estrellas" src="../media/1estrella.png" width="25px" height="20px" alt="estrella1"></a>
+                    <p class="tipo-hotel">Hotel residencia</p>
+                </span>
+            </div>
+            <div class="carta4">
+                <h1 class="nombre">VILLA ROSA</h1>
+                <a href="https://estrellas.com/rconnolly2"><img class="imagen-hotel" src="../media-hoteles/villa_rosa.jpeg" width="120px" height="100px" alt="hostal"></a>
+                <span class="seccion-abajo-carta">
+                    <a href="https://estrellas.com/rconnolly2"><img class="estrellas" src="../media/3estrella.png" width="25px" height="20px" alt="estrella3"></a>
+                    <p class="tipo-hotel">Hostal</p>
+                </span>
+            </div>
+        </div>
+		
+		<div class="cartas">
+            
+            
+			
+        </div>
+        
+
+    </main>
+    
+
+    <script src="../static/js/filtro-tipo.js"></script>
+    <script src="../static/js/filtro-estrellas.js"></script>
+</body>

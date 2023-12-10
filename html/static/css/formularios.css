@@ -1,0 +1,85 @@
+form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 400px;
+    border-radius: 4px;
+    background-color: azure;
+    margin-bottom: 80px;
+}
+
+fieldset {
+
+    border: 2px blue solid;
+    color: rgb(4, 4, 79);
+    background-color: rgb(229, 254, 254);
+    padding: 40px;
+}
+
+#contraseña {
+    width: 100%;
+}
+
+#correo {
+    width: 100%;
+}
+
+#telefono {
+    width: 100%;
+}
+
+#nombre {
+    width: 100%;
+}
+
+#apellido {
+    width: 100%;
+}
+
+#hotel {
+    margin-top: 20px;
+}
+
+#apartamento {
+    margin-top: 20px;
+}
+
+#hotelresidencia {
+    margin-top: 20px;
+    
+}
+
+#hotelapartamento {
+    margin-top: 20px;
+
+}
+
+#hostal {
+    margin-top: 20px;
+}
+
+
+.actuar-form {
+    text-align: center;
+    color:white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 48%;
+    margin-top: 10%;
+    padding: 6px;
+    border-radius: 2px;
+    background-color: rgb(6, 37, 141);
+}
+
+.formulario-registrar {
+    display: block;
+    margin-bottom: 200px;
+    margin-top: 20px;
+    margin-left: 2%;
+}
+
+#descripcion {
+    width: 100%;
+    height: 200px;
+}

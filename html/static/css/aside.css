@@ -1,0 +1,52 @@
+aside {
+    background-color: rgba(200, 231, 254, 0.734);
+    padding-bottom: 6%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* prova */
+
+@keyframes animacion1aside {
+    0%    {opacity: 0;}
+    33.33% {opacity: 1;}
+    66.66% {opacity: 0;}
+    100%  {opacity: 0;}
+  }
+  @keyframes animacion2aside {
+    0%    {opacity: 0;}
+    33.33% {opacity: 0;}
+    66.66% {opacity: 1;}
+    100%  {opacity: 0;}
+  }
+  @keyframes animacion3aside {
+    0%    {opacity: 1;}
+    33.33% {opacity: 0;}
+    66.66% {opacity: 0;}
+    100%  {opacity: 1;}
+  }
+  
+  #animacioncambio img { 
+    animation-duration: 15s;
+    position: absolute;
+    height: auto;
+    width: 78%;
+    margin-left: 1%;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    transition: opacity 1s ease-in-out;
+  }
+
+  #img1animacambio {
+    animation-name: animacion1aside;
+    z-index: 2;
+  }
+  #img2animacambio {
+    animation-name: animacion2aside;
+    z-index: 2;
+  }
+  #img3animacambio {
+    animation-name: animacion3aside;
+    z-index: 2;
+  }

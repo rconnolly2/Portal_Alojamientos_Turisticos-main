@@ -1,0 +1,147 @@
+.filtro {
+    display: inline-block;
+    background-color: bisque;
+    width: 25%;
+    padding: 2%;
+    vertical-align: top;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.lista-hoteles {
+    vertical-align: top;
+    display: inline-block;
+    background-color: aquamarine;
+    width: 69%;
+}
+
+.lista-hoteles-municipio {
+    position: relative;
+    bottom: 154px;
+    vertical-align: top;
+    display: inline-block;
+    background-color: aquamarine;
+    width: 69%;
+}
+
+.imagen-hotel {
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+}
+
+.cartas {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 300px;
+    width: 500px;
+    background-color: blanchedalmond;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartas div {
+    background-color: lightseagreen;
+    height: 200px;
+    width: 120px;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 10px black;
+}
+
+.carta1 {
+    z-index: 0;
+    transform: translateX(0px);
+}
+
+.carta2 {
+    background-color: lightsalmon !important;
+    z-index: 1;
+    transform: translateX(-30px);
+}
+
+.carta3 {
+    z-index: 2;
+    background-color: lightcoral !important;
+    transform: translateX(-70px);
+}
+
+.carta4 {
+    z-index: 3;
+    background-color: lightskyblue !important;
+    transform: translateX(-100px);
+}
+
+.cartas div:hover {
+    animation-name: animacion-tarjeta;
+    animation-duration: 0.2s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+.estrellas {
+    border-radius: 30px;
+    padding: 1px;
+    background-color: white;
+}
+
+.nombre {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    height: 38px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+
+.tipo-hotel {
+    margin: 0;
+    font-size: 9px;
+    color: goldenrod;
+    font-weight: bold;
+    margin-left: 4px;
+}
+
+.seccion-abajo-carta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes animacion-tarjeta {
+    100% {
+        margin-right: 30px;
+        transform: translateX(-20px) translateY(-30px) rotate(10deg);
+    }
+}
+
+.cant-alojamientos {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+/*Sección filtra y links municipios*/
+.link-municipio {
+    display: block;
+    color: black;
+    text-decoration: underline;
+}
+
+/*Mapa*/
+
+#mapa_div_id {
+    width: 100%;
+    display: inline-block;
+}
+
+.puntuacionlocaciones img {
+    height: 100px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: rgb(255, 250, 116);
+    border: solid rgb(255, 230, 0) 5px;
+}
