@@ -28,6 +28,10 @@
     border-radius: 5px;
 }
 
+.cartas:last-child {
+    height: 600px;
+}
+
 .imagen-hotel {
     margin-left: auto;
     margin-right: auto;
@@ -139,7 +143,7 @@
 /*Mapa*/
 
 #mapa_div_id {
-    margin-top: 2%;
+    margin-top: 10%;
     width: 100%;
     display: inline-block;
 }
@@ -157,8 +161,9 @@
 
     .filtro {
         width: 20%;
-        margin-top: 34px;
-        font-size: 10px;
+        margin-top: 23%;
+        font-size: 9px;
+        overflow: hidden;
     }
 
     .cant-alojamientos {
@@ -166,7 +171,7 @@
     }
 
     .lista-hoteles {
-        margin-top: 34px;
+        margin-top: 23%;
         width: 73%;
     }
 
@@ -185,5 +190,14 @@
         display: none;
     }
 
+    /*MUNICIPIOS*/
+    .lista-hoteles-municipio {
+        margin-top: 62.5%;
+        width: 73%;
+    }
+
+    #mapa_div_id {
+        display: none;
+    }
 
   }
