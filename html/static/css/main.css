@@ -63,7 +63,7 @@ main {
     z-index: 1; 
 }
 
-#titulo_lugares {
+.titulo_lugares {
     display: flex;
     justify-content: center;
 }
